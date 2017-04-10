@@ -1,0 +1,33 @@
+{
+  "name": "react-base",
+  "version": "1.0.0",
+  "description": "My startup files for react project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shresthd/react_base.git"
+  },
+  "author": "Dipak Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shresthd/react_base/issues"
+  },
+  "homepage": "https://github.com/shresthd/react_base#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "reach": "^1.0.0",
+    "react-dom": "^15.4.2"
+  }
+}
